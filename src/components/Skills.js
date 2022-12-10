@@ -11,6 +11,7 @@ import 'react-multi-carousel/lib/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import colorSharp from "../assets/img/color-sharp.png"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Skills = () => {
   const responsive = {

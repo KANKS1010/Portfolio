@@ -1,5 +1,5 @@
 import { Col } from "react-bootstrap";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 export const ProjectCard = ({ title, description, imgUrl, link, repo }) => {
   return (
     <Col size={12} sm={6} md={4}>
