@@ -1,8 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img1.1.png";
 import soon from "../assets/img/soon1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -11,30 +9,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // for the Active Live 
 const demo = () => {
-  window.open("https://www.youtube.com/");
+  window.open("https://ecommerce-site-0.vercel.app/");
 };
-const demo1 = () => {
-  window.open("https://www.w3schools.com");
-};
-const demo2 = () => {
-  window.open("https://www.w3schools.com");
-};
-const demo3 = () => {
-  window.open("https://www.w3schools.com");
-};
-
 // code for each project
 const code = () => {
-  window.open("https://www.w3schools.com");
-};
-const code1 = () => {
-  window.open("https://www.w3schools.com");
-};
-const code2 = () => {
-  window.open("https://www.w3schools.com");
-};
-const code3 = () => {
-  window.open("https://www.w3schools.com");
+  window.open("https://github.com/KANKS1010/ecommerce_site_0");
 };
 
 
@@ -44,25 +23,21 @@ export const Projects = () => {
 
 
     {
-      title: "Ecommerce Website",
-      description: "Small multipurpose clothing website for customers to purchase my products",
-      imgUrl: projImg1,
+      title: "E-commerce Website",
+      description: "Small e-commerce website that sells speakers and headphones made in next.js with a backend using stripe",
+      imgUrl: projImg4,
       link: demo,
       repo: code,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      link: demo1,
-      repo: code1,
+      description: "Soon To Come ",
+      imgUrl: soon,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      link: demo2,
-      repo: code2,
+      title: "Live Streaming Services",
+      description: "Soon To Come",
+      imgUrl: soon,
     },
     {
       title: "More to be seen soon",

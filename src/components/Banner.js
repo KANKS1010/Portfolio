@@ -76,8 +76,8 @@ export const Banner = () => {
                   <p>
                     Software developer in the field of JavaScript and React with
                     excellent communication skills, currently seeking a React
-                    developer position. Been programming for Two Years. If you
-                    would like to get in contact with me than....
+                    developer position with A great environment where i can keep growing
+                     If you would like to get in contact with me, than please....
                   </p>
                   <a href="#connect">
                     Let’s Connect <ArrowRightCircle size={25} />
