@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Web Developer", "Software Developer", "Frontend Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -69,14 +69,14 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'>
+                      data-rotate='[ "Web Developer", "Software Developer", "Frontend Developer" ]'>
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Software developer in the field of JavaScript and React with
-                    excellent communication skills, currently seeking a React
-                    developer position with A great environment where i can keep growing
+                    Software developer in the field of front-end development in Angular & React, currently seeking a developer
+                    position in either role. With back-end development skills I work best with C#, .netcore and understand web
+                    API, with experience in deploying applications
                      If you would like to get in contact with me, than please....
                   </p>
                   <a href="#connect">
